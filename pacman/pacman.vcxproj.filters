@@ -30,12 +30,24 @@
     <ClInclude Include="pacman.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="GMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pacman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
