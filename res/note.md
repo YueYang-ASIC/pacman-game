@@ -45,7 +45,7 @@ DeleteObject(hPen);//删除画笔
 ReleaseDC(g_hWnd, hdc);
 Sleep(1);//使当前线程暂停1s 
 ```
-![画线](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/line.JPG)
+![画线](https://github.com/hoshinotsuki/pacman-game/blob/master/res/line.JPG)
 
 ### 画矩形
 
@@ -90,7 +90,7 @@ SelectObject(hdc, holdPen);
 DeleteObject(hPen); 
 ReleaseDC(g_hWnd, hdc);
 ```
-![画弧](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/arc.JPG)
+![画弧](https://github.com/hoshinotsuki/pacman-game/blob/master/res/arc.JPG)
 
 ### 画玩家
 ```cpp
@@ -107,7 +107,7 @@ LineTo(hdc, x - r, y);
 ReleaseDC(g_hWnd,hdc);
 }
 ```
-![](D:\codes\pacman\play1.JPG)
+![](https://github.com/hoshinotsuki/pacman-game/blob/master/res/play1.JPG)
 ```cpp
 #define PI 3.1415926f
 //半张嘴
@@ -134,7 +134,7 @@ void Draw1() {
 	ReleaseDC(g_hWnd, hdc);
 }
 ```
-![](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/play2.JPG)
+![](https://github.com/hoshinotsuki/pacman-game/blob/master/res/play2.JPG)
 ```cpp
 //全张嘴。半圆+竖线
 void Draw2() {
@@ -150,7 +150,7 @@ void Draw2() {
 	ReleaseDC(g_hWnd, hdc);
 }
 ```
-![](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/play3.JPG)
+![](https://github.com/hoshinotsuki/pacman-game/blob/master/res/play3.JPG)
 
 ### 动画
 ```cpp
@@ -264,7 +264,7 @@ bool Stage_1::initData[MAPLENTH][MAPLENTH] = {
 #undef B
 //取消宏定义，防止歧义
 ```
-![画线](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/map.JPG)
+![画线](https://github.com/hoshinotsuki/pacman-game/blob/master/res/map.JPG)
 
 ## 可移动对象类的设计
 - 基类GObject的部分变量
@@ -559,7 +559,7 @@ if (GetAsyncKeyState('B') & 0x8000)
     }
 }	
 ```
-![画线](https://github.com/hoshinotsuki/pacman-game/tree/master/Release/res/win.JPG)
+![画线](https://github.com/hoshinotsuki/pacman-game/blob/master/res/WIN.JPG)
 
 @Lightmare小蒟蒻
 
