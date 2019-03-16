@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  GMap.cpp
+  GObject.cpp
+  pacman.cpp
+pacman.cpp(55): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+pacman.cpp(56): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+pacman.cpp(58): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+pacman.cpp(59): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  正在生成代码
+  All 218 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  pacman.vcxproj -> D:\codes\pacman\pacman\x64\Release\pacman.exe
+  pacman.vcxproj -> D:\codes\pacman\pacman\x64\Release\pacman.pdb (Full PDB)
